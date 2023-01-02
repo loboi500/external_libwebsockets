@@ -1,12 +1,3 @@
-# to keep this from working as is
-DO-NOT-BUILD-ME-AS-IS
-set(ANDROID_SRC_ROOT_DIR "____android_src_root_dir____")
-set(BUILD_LIBSSL_DIR "____build_libssl_dir____")
-set(BUILD_LIBCRYPTO_DIR "____build_libcrypto_dir____")
-set(BUILD_LIBCAP_DIR "____build_libcap_dir____")
-
-set(BUILD_BORINGSSL_INCDIR "${ANDROID_SRC_ROOT_DIR}/external/boringssl/include")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-error=implicit-function-declaration")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DBORINGSSL_IMPLEMENTATION")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -I${BUILD_BORINGSSL_INCDIR}")
-set(CMAKE_REQUIRED_LINK_OPTIONS "-L${BUILD_LIBSSL_DIR} -L${BUILD_LIBCRYPTO_DIR} -L${BUILD_LIBCAP_DIR}")
+version https://git-lfs.github.com/spec/v1
+oid sha256:b28f7c2a87ea3ed5035cdb88d127c557a9eda4f4901e131b4549ab46d5f32d14
+size 662

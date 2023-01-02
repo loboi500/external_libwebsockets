@@ -1,21 +1,3 @@
-# lws minimal http server form POST
-
-## build
-
-```
- $ cmake . && make
-```
-
-## usage
-
-```
- $ ./lws-minimal-http-server-form-post
-[2018/03/29 08:29:41:7044] USER: LWS minimal http server form POST | visit http://localhost:7681
-[2018/03/29 08:29:41:7044] NOTICE: Creating Vhost 'default' port 7681, 1 protocols, IPv6 off
-[2018/03/29 08:29:49:8601] USER: text1: (len 4) 'xxxx'
-[2018/03/29 08:29:49:8601] USER: send: (len 6) 'Submit'
-```
-
-Visit http://localhost:7681, submit the form.
-
-The form parameters are dumped to the log and you are redirected to a different page.
+version https://git-lfs.github.com/spec/v1
+oid sha256:736891ef782c5f4c0777e5db45eb1c38d65a54d90482f4a9af05bceefc58092e
+size 567

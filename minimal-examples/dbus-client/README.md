@@ -1,4 +1,3 @@
-|Example|Demonstrates|
----|---
-minimal-dbus-client|Shows how to connect to a DBusServer dbus server like minimal-dbus-server
-minimal-dbus-ws-proxy-testclient|A test client for use with minimal-dbus-ws-proxy
+version https://git-lfs.github.com/spec/v1
+oid sha256:213c5d4b32ef2df02dc45b30eef0ca44f6f5b9e3923c9eefbe22874dd4d6f72f
+size 207

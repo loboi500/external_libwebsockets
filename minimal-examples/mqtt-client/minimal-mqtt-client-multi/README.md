@@ -1,24 +1,3 @@
-# lws minimal MQTT client multi
-
-## build
-
-```
- $ cmake . && make
-```
-
-## usage
-
-The application goes to https://warmcat.com and receives the page data
-same as minimal http client.
-
-However it does it for 8 client connections concurrently.
-
-## Commandline Options
-
-Option|Meaning
----|---
--c <conns>|Count of simultaneous connections (default 8)
--s|Stagger the connections by 100ms, the last by 1s
--p|Use stream binding
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb97745ab60254ca3750983d28c838a1054a1aa496262c938fbfbca71c1a4262
+size 421

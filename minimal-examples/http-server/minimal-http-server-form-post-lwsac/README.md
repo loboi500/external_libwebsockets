@@ -1,23 +1,3 @@
-# lws minimal http server form POST lwsac
-
-Shows how to parse the form using an lwsac to hold the form data
-
-## build
-
-```
- $ cmake . && make
-```
-
-## usage
-
-```
- $ ./lws-minimal-http-server-form-post-lwsac
-[2018/03/29 08:29:41:7044] USER: LWS minimal http server form POST | visit http://localhost:7681
-[2018/03/29 08:29:41:7044] NOTICE: Creating Vhost 'default' port 7681, 1 protocols, IPv6 off
-[2018/03/29 08:29:49:8601] USER: text1: (len 4) 'xxxx'
-[2018/03/29 08:29:49:8601] USER: send: (len 6) 'Submit'
-```
-
-Visit http://localhost:7681, submit the form.
-
-The form parameters are dumped to the log and you are redirected to a different page.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ebdce3dacc5c4d9eadc5804909279136824b3f4cde1f7b414645b04c7e3ff42
+size 645

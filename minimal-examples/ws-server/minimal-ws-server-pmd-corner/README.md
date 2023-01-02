@@ -1,24 +1,3 @@
-# lws minimal ws server + permessage-deflate corner case tests
-
-## build
-
-```
- $ cmake . && make
-```
-
-## usage
-
-```
- $ ./lws-minimal-ws-server-pmd-corner
-[2018/11/21 16:47:49:0171] USER: LWS minimal ws server + permessage-deflate Corner Cases | visit http://localhost:7681
-[2018/11/21 16:47:49:0172] NOTICE: Creating Vhost 'default' port 7681, 2 protocols, IPv6 off
-
-```
-
-Visit http://localhost:7681 
-
-5 ws connections are made via permessage-deflate extension.
-
-When the ws connection is established, various amounts of data are sent
-resulting in ciphertext packets of a known size.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d30f1a200d93f28c818f78f012c94dd958656eee0d2a474e02be513f5ef97d0
+size 585

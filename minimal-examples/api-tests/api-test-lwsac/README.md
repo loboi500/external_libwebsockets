@@ -1,22 +1,3 @@
-# lws api test lwsac
-
-Demonstrates how to use and performs selftests for lwsac
-
-## build
-
-```
- $ cmake . && make
-```
-
-## usage
-
-Commandline option|Meaning
----|---
--d <loglevel>|Debug verbosity in decimal, eg, -d15
-
-```
- $ ./lws-api-test-lwsac
-[2018/10/09 09:14:17:4834] USER: LWS API selftest: lwsac
-[2018/10/09 09:14:17:4835] USER: Completed: PASS
-```
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d686ecf445e5e4d6240d82297ff3f8ecd192a991f96bb573bd1ce0b5d47c709
+size 354

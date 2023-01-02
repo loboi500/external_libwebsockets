@@ -1,1 +1,3 @@
-CPPFLAGS += -I$(BUILD_DIR_BASE)/libwebsockets/include
+version https://git-lfs.github.com/spec/v1
+oid sha256:50616dff82d5bb3148511591cb6dbe907e31fdad6afa8d1c20a6abc920e2f993
+size 54
